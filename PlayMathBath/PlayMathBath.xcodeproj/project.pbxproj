@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5410907D1AB0E980002C6A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5410907C1AB0E980002C6A1A /* AppDelegate.swift */; };
+		541090821AB0E980002C6A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541090801AB0E980002C6A1A /* Main.storyboard */; };
+		541090841AB0E980002C6A1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541090831AB0E980002C6A1A /* Images.xcassets */; };
+		541090871AB0E980002C6A1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541090851AB0E980002C6A1A /* LaunchScreen.xib */; };
+		541090931AB0E980002C6A1A /* PlayMathBathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541090921AB0E980002C6A1A /* PlayMathBathTests.swift */; };
+		5410909D1AB0F904002C6A1A /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5410909C1AB0F904002C6A1A /* resultViewController.swift */; };
+		5410909F1AB0FA3C002C6A1A /* problemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5410909E1AB0FA3C002C6A1A /* problemViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5410908D1AB0E980002C6A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5410906F1AB0E980002C6A1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541090761AB0E980002C6A1A;
+			remoteInfo = PlayMathBath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		541090771AB0E980002C6A1A /* PlayMathBath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMathBath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5410907B1AB0E980002C6A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5410907C1AB0E980002C6A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		541090811AB0E980002C6A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		541090831AB0E980002C6A1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		541090861AB0E980002C6A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5410908C1AB0E980002C6A1A /* PlayMathBathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMathBathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541090911AB0E980002C6A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541090921AB0E980002C6A1A /* PlayMathBathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMathBathTests.swift; sourceTree = "<group>"; };
+		5410909C1AB0F904002C6A1A /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		5410909E1AB0FA3C002C6A1A /* problemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = problemViewController.swift; path = PlayMathBath/problemViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541090741AB0E980002C6A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541090891AB0E980002C6A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5410906E1AB0E980002C6A1A = {
+			isa = PBXGroup;
+			children = (
+				541090791AB0E980002C6A1A /* PlayMathBath */,
+				5410908F1AB0E980002C6A1A /* PlayMathBathTests */,
+				541090781AB0E980002C6A1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541090781AB0E980002C6A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541090771AB0E980002C6A1A /* PlayMathBath.app */,
+				5410908C1AB0E980002C6A1A /* PlayMathBathTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541090791AB0E980002C6A1A /* PlayMathBath */ = {
+			isa = PBXGroup;
+			children = (
+				5410907C1AB0E980002C6A1A /* AppDelegate.swift */,
+				5410909C1AB0F904002C6A1A /* resultViewController.swift */,
+				5410909E1AB0FA3C002C6A1A /* problemViewController.swift */,
+				541090801AB0E980002C6A1A /* Main.storyboard */,
+				541090831AB0E980002C6A1A /* Images.xcassets */,
+				541090851AB0E980002C6A1A /* LaunchScreen.xib */,
+				5410907A1AB0E980002C6A1A /* Supporting Files */,
+			);
+			path = PlayMathBath;
+			sourceTree = "<group>";
+		};
+		5410907A1AB0E980002C6A1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5410907B1AB0E980002C6A1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5410908F1AB0E980002C6A1A /* PlayMathBathTests */ = {
+			isa = PBXGroup;
+			children = (
+				541090921AB0E980002C6A1A /* PlayMathBathTests.swift */,
+				541090901AB0E980002C6A1A /* Supporting Files */,
+			);
+			path = PlayMathBathTests;
+			sourceTree = "<group>";
+		};
+		541090901AB0E980002C6A1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				541090911AB0E980002C6A1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541090761AB0E980002C6A1A /* PlayMathBath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541090961AB0E980002C6A1A /* Build configuration list for PBXNativeTarget "PlayMathBath" */;
+			buildPhases = (
+				541090731AB0E980002C6A1A /* Sources */,
+				541090741AB0E980002C6A1A /* Frameworks */,
+				541090751AB0E980002C6A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayMathBath;
+			productName = PlayMathBath;
+			productReference = 541090771AB0E980002C6A1A /* PlayMathBath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5410908B1AB0E980002C6A1A /* PlayMathBathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541090991AB0E980002C6A1A /* Build configuration list for PBXNativeTarget "PlayMathBathTests" */;
+			buildPhases = (
+				541090881AB0E980002C6A1A /* Sources */,
+				541090891AB0E980002C6A1A /* Frameworks */,
+				5410908A1AB0E980002C6A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5410908E1AB0E980002C6A1A /* PBXTargetDependency */,
+			);
+			name = PlayMathBathTests;
+			productName = PlayMathBathTests;
+			productReference = 5410908C1AB0E980002C6A1A /* PlayMathBathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5410906F1AB0E980002C6A1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Early Learning & Play";
+				TargetAttributes = {
+					541090761AB0E980002C6A1A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5410908B1AB0E980002C6A1A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 541090761AB0E980002C6A1A;
+					};
+				};
+			};
+			buildConfigurationList = 541090721AB0E980002C6A1A /* Build configuration list for PBXProject "PlayMathBath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5410906E1AB0E980002C6A1A;
+			productRefGroup = 541090781AB0E980002C6A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541090761AB0E980002C6A1A /* PlayMathBath */,
+				5410908B1AB0E980002C6A1A /* PlayMathBathTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541090751AB0E980002C6A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541090821AB0E980002C6A1A /* Main.storyboard in Resources */,
+				541090871AB0E980002C6A1A /* LaunchScreen.xib in Resources */,
+				541090841AB0E980002C6A1A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5410908A1AB0E980002C6A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541090731AB0E980002C6A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5410909F1AB0FA3C002C6A1A /* problemViewController.swift in Sources */,
+				5410909D1AB0F904002C6A1A /* resultViewController.swift in Sources */,
+				5410907D1AB0E980002C6A1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541090881AB0E980002C6A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541090931AB0E980002C6A1A /* PlayMathBathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5410908E1AB0E980002C6A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541090761AB0E980002C6A1A /* PlayMathBath */;
+			targetProxy = 5410908D1AB0E980002C6A1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		541090801AB0E980002C6A1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541090811AB0E980002C6A1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		541090851AB0E980002C6A1A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541090861AB0E980002C6A1A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		541090941AB0E980002C6A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		541090951AB0E980002C6A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541090971AB0E980002C6A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayMathBath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		541090981AB0E980002C6A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayMathBath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5410909A1AB0E980002C6A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayMathBathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayMathBath.app/PlayMathBath";
+			};
+			name = Debug;
+		};
+		5410909B1AB0E980002C6A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayMathBathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayMathBath.app/PlayMathBath";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541090721AB0E980002C6A1A /* Build configuration list for PBXProject "PlayMathBath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541090941AB0E980002C6A1A /* Debug */,
+				541090951AB0E980002C6A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541090961AB0E980002C6A1A /* Build configuration list for PBXNativeTarget "PlayMathBath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541090971AB0E980002C6A1A /* Debug */,
+				541090981AB0E980002C6A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		541090991AB0E980002C6A1A /* Build configuration list for PBXNativeTarget "PlayMathBathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5410909A1AB0E980002C6A1A /* Debug */,
+				5410909B1AB0E980002C6A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5410906F1AB0E980002C6A1A /* Project object */;
+}
